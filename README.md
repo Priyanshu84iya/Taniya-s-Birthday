@@ -1,4 +1,4 @@
-# 🎉 Happy Birthday Website - Taniya's Special Day 🎂
+# 🎉 Happy Birthday Website - Interactive Birthday Experience 🎂
 
 <div align="center">
   <img src="img/favicon.png" alt="Birthday Icon" width="100" height="100">
@@ -11,6 +11,8 @@
   ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
   ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
   ![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
+
+  🔗 **[Live Demo](https://priyanshu84iya.github.io/Taniya-s-Birthday/)** | 📊 **[Repository](https://github.com/Priyanshu84iya/Taniya-s-Birthday)**
 </div>
 
 ---
@@ -39,6 +41,22 @@
 - Elegant typography using Playfair Display font
 - Smooth hover effects and interactions
 - Mobile-responsive design
+- Beautiful footer with social media links
+- Interactive replay functionality
+
+---
+
+## 📸 Screenshots
+
+<div align="center">
+  
+*Experience the magic of animated birthday wishes*
+
+🎭 **Opening Animation** → 💬 **Interactive Chat** → 🎈 **Balloon Celebration** → 🎉 **Final Wishes**
+
+*Visit the [Live Demo](https://priyanshu84iya.github.io/Taniya-s-Birthday/) to see it in action!*
+
+</div>
 
 ---
 
@@ -52,7 +70,7 @@
 
 1. **Clone or download this project**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Priyanshu84iya/Taniya-s-Birthday.git
    cd "Taniya's Birthday"
    ```
 
@@ -80,10 +98,10 @@ All customizable content is stored in `customize.json`. Simply edit this file to
 ```json
 {
   "greeting": "Hey",           // Opening greeting
-  "name": "Taniya🎀",         // Birthday person's name
+  "name": "Pry Uchiha🎀",     // Birthday person's name
   "greetingText": "I really like your name btw!",
   "wishText": "May all your beautiful dreams blossom into reality! ✨🌟",
-  "imagePath": "img/taniya_5.png",  // Profile image
+  "imagePath": "img/pry_uchiha.png",  // Profile image
   // ... and many more customizable options
 }
 ```
@@ -98,6 +116,15 @@ All customizable content is stored in `customize.json`. Simply edit this file to
 2. Keep the same filename or update the HTML reference
 3. Supported formats: MP3, WAV, OGG
 
+### 👤 **Current Customization**
+This project is currently customized for **Pry Uchiha** with:
+- Custom profile image (`pry_uchiha.png`)
+- Personalized messages and greetings
+- Social media links in the footer
+- Special birthday theme
+
+To customize for someone else, simply update the `customize.json` file with new content!
+
 ---
 
 ## 📁 Project Structure
@@ -111,7 +138,7 @@ All customizable content is stored in `customize.json`. Simply edit this file to
 │   ├── birthday_song.mp3     # Background music
 │   ├── favicon.png           # Website icon
 │   ├── hat.svg              # Birthday hat
-│   └── taniya_5.png         # Profile picture
+│   └── pry_uchiha.png       # Profile picture
 ├── 📜 script/
 │   └── main.js              # Animation logic & interactions
 ├── 🎨 style/
@@ -119,6 +146,7 @@ All customizable content is stored in `customize.json`. Simply edit this file to
 ├── 📄 index.html            # Main HTML structure
 ├── ⚙️ customize.json        # Customization data
 ├── 📦 package.json          # Project configuration
+├── 🔒 package-lock.json     # Dependency lock file
 └── 📖 README.md            # This file
 ```
 
@@ -177,6 +205,22 @@ The website is fully responsive and provides a great experience on:
 
 ---
 
+## 🚀 Deployment
+
+This project is deployed using **GitHub Pages** and is automatically updated when changes are pushed to the main branch.
+
+### Deploy Your Own Version:
+1. Fork this repository
+2. Go to repository Settings → Pages
+3. Select "Deploy from a branch" 
+4. Choose `main` branch and `/ (root)` folder
+5. Your site will be available at `https://yourusername.github.io/Taniya-s-Birthday/`
+
+### Local Development:
+For local development with hot reload, use the npm start command which runs browser-sync on port 7777.
+
+---
+
 ## 🤝 Contributing
 
 Want to make this even more awesome? Here's how you can contribute:
@@ -213,9 +257,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🎉 Special Thanks
 
-- **Taniya** - The inspiration for this beautiful birthday experience 🎂
-- **GSAP** - For amazing animation capabilities
+- **Everyone who inspires beautiful birthday celebrations** 🎂
+- **GSAP (GreenSock)** - For amazing animation capabilities
 - **Google Fonts** - For beautiful typography
+- **Browser-sync** - For seamless development experience
 - **The Open Source Community** - For continuous inspiration
 
 ---
